@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(99, 93, 93);
+    background-attachment: fixed;
+    color: white;
+}
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+a.button {
+    color: white;
+    background-color: buttontext;
+    text-decoration: none;
+    padding: 1%;
+    display: inline-block;
+    border: 2px solid white;
+}
+h2 > a:hover {
+    font-size: larger;
+}
+a, a:visited {
+    transition-duration: 500ms;
+}
+#H3 {
+    text-align: center;
+    font-size: 25px;
+}
+#OL {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    text-align: center; 
+    line-height: 2;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    padding-left: 14%;
+    padding-right: 14%;
+    border: 3px solid;
+    border-color: gray;
+}
+.grow img {
+    transition: 1s ease;
+    float: right;
+}
+.grow img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+#insta {
+    border: 3px solid;
+    border-color: white;
+    padding: 2%;
+    margin: auto;
+}
+#email {
+    border: 5px solid;
+    border-color: black;
+    padding: 2%;
+    margin: auto;
+}
+#facebook {
+    border: 3px solid;
+    border-color: white;
+    padding: 2%;
+    margin: auto;
+}
+.table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-left: 10%;
+}
+
+#WebpageSurvey {
+    text-align: center;
+}
+
+textarea {
+    resize: none;
+}
+
+#errorMessage {
+    display: inline-block;
+}
+
+#colorChange {
+    text-align: center;
+    padding: 2%;
+}
+@media only screen and (max-Width: 600px) {
+    .container {
+      /* width: 95%; */
+      justify-content: center;
+      justify-content: space-around;
+      padding: 20px;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .container {
+        /*width: 25%;*/
+        justify-content: center;
+        justify-content: space-around;
+        padding: 10px;
+        
+    }
+}

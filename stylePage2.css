@@ -1,0 +1,142 @@
+body {
+    background-color: rgb(99, 93, 93);
+    background-attachment: fixed;
+    color: white;
+}
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1%;
+    padding-left: 14%;
+    padding-right: 14%;
+    border: 3px solid;
+    border-color: gray;
+}
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 3%;
+    padding-right: 7%;
+}
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 3%;
+    padding-right: 0%;
+}
+.container2 p {
+    font-size: 200%;
+    padding-top: 30%;
+}
+.container3 p {
+    font-size: 200%;
+    padding-top: 30%;
+}
+.container4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+.container5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 3%
+}
+#UL {
+    list-style-type: circle;
+    list-style: georgian;
+    font-size: 120%;
+}
+#UL2 {
+    list-style-type: circle;
+    list-style: georgian;
+    font-size: 120%;
+    padding-top: 4%;
+    padding: 3%;
+}
+#UL3 {
+    list-style-type: circle;
+    list-style: georgian;
+    font-size: 120%;
+    padding-top: 4%;
+}
+a.button {
+    color: white;
+    background-color: buttontext;
+    text-decoration: none;
+    padding: 1%;
+    display: inline-block;
+    border: 2px solid white;
+}
+h2 > a:hover {
+    font-size: larger;
+}
+a, a:visited {
+    transition-duration: 500ms;
+}
+.grow img {
+    transition: 1s ease;
+    float: right;
+}
+.grow img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.titles {
+    font-size: 30px;
+}
+#insta {
+    border: 3px solid;
+    border-color: white;
+    padding: 2%;
+    margin: auto;
+}
+#email {
+    border: 5px solid;
+    border-color: black;
+    padding: 2%;
+    margin: auto;
+}
+#facebook {
+    border: 3px solid;
+    border-color: white;
+    padding: 2%;
+    margin: auto;
+}
+
+#colorChange {
+    text-align: center;
+    padding: 2%;
+}
+@media only screen and (max-Width: 600px) {
+    .container, .container2 , .container3, .container4, .container5 {
+      
+      padding: 20px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .container, .container2, .container3, .container4, .container5 {
+        
+        padding: 10px;
+    }
+}

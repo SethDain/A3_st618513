@@ -1,0 +1,122 @@
+
+body {
+    background-color: rgb(99, 93, 93);
+    background-attachment: fixed;
+    color: white;
+}
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.grow img {
+    transition: 1s ease;
+    float: right;
+}
+.grow img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+#meImg {
+    width: 320px;
+    height: 400px;
+}
+.text {
+    padding: 6%;
+}
+.container {
+    align-items: center;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8px;
+}
+.container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    padding: 1%;
+    border: 3px solid;
+    border-color: gray;
+    
+}
+#insta {
+    border: 3px solid;
+    border-color: white;
+    padding: 2%;
+    margin: auto;
+}
+#email {
+    border: 5px solid;
+    border-color: black;
+    padding: 2%;
+    margin: auto;
+}
+#facebook {
+    border: 3px solid;
+    border-color: white;
+    padding: 2%;
+    margin: auto;
+}
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 90px;
+}
+.container4 {
+    text-align: center;
+
+}
+ul.myUL {
+    display: inline-block;
+    padding: 2%;
+    text-align: left;
+    border: 3px solid;
+    border-color: gray;
+}
+
+h1 {
+    font-size: 200px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+#education {
+    text-align: center;
+
+}
+
+nav > .button {
+    color: white;
+    background-color: buttontext;
+    text-decoration: none;
+    padding: 1%;
+    display: inline-block;
+    border: 2px solid white;
+}
+
+a:hover {
+    font-size: larger;
+}
+a, a:visited {
+    transition-duration: 500ms;
+}
+#colorChange {
+    text-align: center;
+    padding: 2%;
+}
+
+@media only screen and (max-Width: 600px) {
+    .container, .container2 , .container3 {
+      padding: 20px;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .container, .container2, .container3 {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Future Goals</title>
+        <link rel="icon" type="image/x-icon" href="images/SDIcon.jpg">
+        <link rel="stylesheet" type="text/css" href="stylePage3.css">
+    </head>
+    <body>
+        <br>
+        <h1> Future Goals </h1>
+        <br>
+        <form id="colorChange">
+        <input type="text" id="inputtedColor">
+        <input type="button" id="buttonForColor" value="Click me to change to your color!!" onclick="backgroundColorChanger()">
+        <input type="button" id="resetButton" value="Change background color back to default" onclick="resetBackground()">
+        </form>
+        <h2> 
+            <a href="index.html" class="button"> Home/About </a> 
+            &nbsp;&nbsp; 
+            <a href="SecondPage.html" class="button"> My Work </a> 
+            &nbsp;&nbsp; 
+            <a href="ThirdPage.html" class="button"> Future Goals </a>
+        </h2>
+        <br>
+        <br>
+        <br>
+        <h3 id="H3"> I have many goals and aspirations and there are few I aspire to be similar to, listed below are a few </h3>
+        <br>
+        <br>
+        <ol id="OL">
+            <li> Aid in programming and game design</li>
+            <li> Project manager in a technology company focusing on a world problem</li>
+            <li> Software designer <ul><li>Games</li><li>Security systems</li><li>Web desinging software</li></ul></li>
+            <li> Cyber security analyst</li>
+            <li> Web designer <ul><li> Personal websites</li><li> Company pages</li><li>Buisness proposal templates</li></ul></li>
+        </ol>
+        <br>
+        <br>
+
+        <h2> Inspirational Individuals </h2>
+        <br>
+        <br>
+        <div class="grow">
+        <div class="table">
+                <div class="Individual">
+                <img src="images/AlanTuring.jpg" alt="Alan Turing picture" width="250" height="200"></td>
+                </div>
+
+                <div class="Individual">
+                <img src="images/BillGates.jpg" alt="Bill Gates picture" width="270" height="200"></td>
+                </div>
+
+                <div class="Individual">
+                <img src="images/ElonMusk.webp" alt="Elon Musk picture" wdith="200" height="200"></td>
+                </div>
+                </div>
+        </div>
+        <br>
+        <div class="quote">
+        <h3>**BONUS!**</h3>
+        <audio controls>
+            <source src = "ElonMuskQuote.mp3" type="audio/mp3">
+        </audio>
+        <p>A word from Elon Musk on inspirational words.</p>
+    </div>
+    <br>
+    <br>
+    <h2> Please fill out this form! </h2>
+    <h2><b> ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ </b></h2>
+    <br>
+    <br>
+    <br>
+    <form id="WebpageSurvey" action="/ThirdPage.html">
+
+        <label for="fname" > First Name: </label> <br>
+        <input type="text" id="fname" name="fname" placeholder="First name here..."><br>
+        <label for="lname" > Last Name: </label> <br>
+        <input type="text" id="lname" name="lname" placeholder="Last name here..."><br><br>
+        
+        <p><u> Was this website a helpful tool for a new website developer </u></p>
+        <input type="radio" id="yes" name="yesOrNo" value="Yes" >
+        <label for="yes" > Yes it was helpful </label><br>
+        <input type="radio" id="no" name="yesOrNo" value="No" >
+        <label for="yes" > No it was not helpful </label><br><br>
+
+        <label for="Why" > For the prior question, why or why not? </label><br>
+        <textarea id="Why" name="Why" rows="7" cols="90" placeholder="Why or why not?"></textarea><br>
+        <br>
+        <label for="yourEmail"> If you have any further questions, drop your email below! </label><br>
+        <input type="yourEmail" id="yourEmail" name="yourEmail" placeholder="Email here:"><br>
+        <br>
+        <label for="submit" id="sumbit"> Submit here! </label><br>
+        <button id="submit" onclick="checkForm()"> Submit </button>
+        
+        <div id="errorMessage">
+        
+        </div>
+    </form>
+    
+    <br>
+    <br>
+    </body>
+    <script src="ScriptPage3.js"></script>
+    <br>
+
+    <footer> 
+        <div class="grow">
+        <div class="container">
+            
+            <a href = "https://www.instagram.com/sethdain_/" alt = "instagram"> <img src="images/InstagramLogo.png" id="insta" width="70" alt = "Instagram"></a>
+            
+            <a href = "mailto: st618513@dal.ca"> <image src="images/EmailLogo.jpg" id="email" width="70" alt = "Email"> </image></a>
+    
+            <a href = "https://www.facebook.com/profile.php?id=100024874877478" alt = "Facebook"> <img src="images/FacebookLogo.png" id="facebook" width="70" alt = "Facebook"></a>    
+            
+        </div>
+        </div>
+    </footer>
+</html>
